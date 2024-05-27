@@ -23,7 +23,7 @@ require("lazy").setup({ -- suggested in https://github.com/VonHeikemen/lsp-zero.
 -- telescope
 {
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
-    dependencies = { 'nvim-lua/plenary.nvim' }
+    dependencies = { 'nvim-lua/plenary.nvim', 'nvim-tree/nvim-web-devicons' },
 }, 
 -- Neovim Navigation should be similar to Tmux
 {"christoomey/vim-tmux-navigator"}, -- styling
@@ -104,3 +104,5 @@ require('mason-lspconfig').setup({
 -- %{FugitiveStatusline()}
 vim.opt.laststatus = 2
 -- vim.opt.statusline = "%f %m %{FugitiveStatusline()} Hello"
+require('nvim-web-devicons').setup()
+require('nvim-web-devicons').get_icons()
