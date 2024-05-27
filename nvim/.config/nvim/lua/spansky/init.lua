@@ -20,6 +20,11 @@ require("lazy").setup({ -- suggested in https://github.com/VonHeikemen/lsp-zero.
 {'hrsh7th/cmp-nvim-lsp'},
 {'hrsh7th/nvim-cmp'},
 {'L3MON4D3/LuaSnip'},
+-- telescope
+{
+    'nvim-telescope/telescope.nvim', tag = '0.1.6',
+    dependencies = { 'nvim-lua/plenary.nvim' }
+}, 
 -- Neovim Navigation should be similar to Tmux
 {"christoomey/vim-tmux-navigator"}, -- styling
 { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
