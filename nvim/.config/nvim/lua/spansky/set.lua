@@ -8,7 +8,8 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.smartindent = true
-vim.api.nvim_set_option("clipboard","unnamed")
+vim.api.nvim_set_option("clipboard","unnamedplus")
+vim.opt.swapfile = false
 
 -- https://shapeshed.com/vim-netrw/
 -- vim.g.netrw_liststyle = 3 -- tree view
