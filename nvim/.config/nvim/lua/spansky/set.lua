@@ -11,6 +11,6 @@ vim.opt.smartindent = true
 vim.api.nvim_set_option("clipboard","unnamed")
 
 -- https://shapeshed.com/vim-netrw/
-vim.g.netrw_liststyle = 3 -- tree view
-vim.g.netrw_banner = 0 -- hide the banner
-vim.g.netrw_browse_split = 3 -- open files in tabs
+-- vim.g.netrw_liststyle = 3 -- tree view
+-- vim.g.netrw_banner = 0 -- hide the banner
+-- vim.g.netrw_browse_split = 3 -- open files in tabs
