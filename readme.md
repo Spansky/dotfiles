@@ -15,6 +15,6 @@ Requires:
 
 ## How to setup
 
-clone this repo into /home/<user>
-go into the dotfiles folder
+clone this repo into /home/<user>  
+go into the dotfiles folder  
 type `stow tmux` -> will create a .tmux config in /home/<user>
